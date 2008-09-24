@@ -1,0 +1,16 @@
+#ifndef LOTTERY_H_
+#define LOTTERY_H_
+
+namespace lotto
+{
+
+class Lottery
+{
+public:
+	Lottery();
+	virtual ~Lottery();
+};
+
+}
+
+#endif /*LOTTERY_H_*/

@@ -1,0 +1,14 @@
+#include "LotteryFactory.h"
+
+namespace lotto
+{
+
+LotteryFactory::LotteryFactory()
+{
+}
+
+LotteryFactory::~LotteryFactory()
+{
+}
+
+}

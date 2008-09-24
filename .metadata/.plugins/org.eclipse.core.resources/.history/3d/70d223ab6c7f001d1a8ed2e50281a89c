@@ -1,0 +1,14 @@
+#include "MegaLottery.h"
+
+namespace lotto
+{
+
+MegaLottery::MegaLottery()
+{
+}
+
+MegaLottery::~MegaLottery()
+{
+}
+
+}

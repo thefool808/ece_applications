@@ -1,0 +1,22 @@
+#ifndef LOTTERY_H_
+#define LOTTERY_H_
+
+#include <string>
+#include <sstream>
+#include <cstdlib>
+#include <time.h>
+using namespace std;
+
+namespace lotto
+{
+
+class Lottery
+{
+public:
+	Lottery();
+	virtual ~Lottery();
+};
+
+}
+
+#endif /*LOTTERY_H_*/

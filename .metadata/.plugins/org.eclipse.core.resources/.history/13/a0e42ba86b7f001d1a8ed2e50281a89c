@@ -1,0 +1,16 @@
+#include "Lottery.h"
+
+namespace lotto
+{
+
+Lottery::Lottery(int size, int num)
+{
+  this->ticketSize = size;
+  this->maxnum = num;
+}
+
+Lottery::~Lottery()
+{
+}
+
+}

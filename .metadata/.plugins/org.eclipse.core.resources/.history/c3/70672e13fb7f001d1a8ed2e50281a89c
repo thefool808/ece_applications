@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/mp4ff/drms.c \
+../src/mp4ff/mp4atom.c \
+../src/mp4ff/mp4ff.c \
+../src/mp4ff/mp4meta.c \
+../src/mp4ff/mp4sample.c \
+../src/mp4ff/mp4tagupdate.c \
+../src/mp4ff/mp4util.c 
+
+C_DEPS += \
+./src/mp4ff/drms.d \
+./src/mp4ff/mp4atom.d \
+./src/mp4ff/mp4ff.d \
+./src/mp4ff/mp4meta.d \
+./src/mp4ff/mp4sample.d \
+./src/mp4ff/mp4tagupdate.d \
+./src/mp4ff/mp4util.d 
+
+OBJS += \
+./src/mp4ff/drms.o \
+./src/mp4ff/mp4atom.o \
+./src/mp4ff/mp4ff.o \
+./src/mp4ff/mp4meta.o \
+./src/mp4ff/mp4sample.o \
+./src/mp4ff/mp4tagupdate.o \
+./src/mp4ff/mp4util.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/mp4ff/%.o: ../src/mp4ff/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

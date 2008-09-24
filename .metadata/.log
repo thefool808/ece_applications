@@ -1,0 +1,618 @@
+!SESSION 2008-09-10 14:38:34.213 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:38:45.708
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:38:45.843
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:38:45.844
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:38:45.844
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2008-09-10 14:52:57.088 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:53:04.146
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:53:04.146
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:53:04.146
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 14:53:04.146
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 4 368 2008-09-10 14:53:48.426
+!MESSAGE Resource /first does not exist.
+!SESSION 2008-09-10 15:02:11.508 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 15:02:19.269
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 15:02:19.269
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 15:02:19.269
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-10 15:02:19.270
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-10 15:22:57.804
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.ui 4 4 2008-09-10 15:24:29.616
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+
+!ENTRY org.eclipse.core.resources 4 372 2008-09-10 15:34:17.472
+!MESSAGE Resource /Lottery is not open.
+
+!ENTRY org.eclipse.core.resources 4 368 2008-09-10 15:36:37.055
+!MESSAGE Resource /first does not exist.
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-10 15:37:57.220
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-10 15:41:37.269
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-10 15:41:46.557
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.osgi 4 0 2008-09-11 09:22:14.066
+!MESSAGE Error while stopping "com.android.ide.eclipse.ddms_0.3.0.200802081635".
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.android.ide.eclipse.ddms.DdmsPlugin.stop() of bundle com.android.ide.eclipse.ddms.
+   at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1048)
+   at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:396)
+   at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:400)
+   at org.eclipse.core.runtime.internal.adaptor.BundleStopper.basicStopBundles(BundleStopper.java:86)
+   at org.eclipse.core.runtime.internal.adaptor.BundleStopper.stopBundles(BundleStopper.java:73)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook.frameworkStopping(EclipseAdaptorHook.java:156)
+   at org.eclipse.osgi.baseadaptor.BaseAdaptor.frameworkStopping(BaseAdaptor.java:288)
+   at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:538)
+   at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:449)
+   at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:423)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:193)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+Caused by: java.lang.NullPointerException
+   at com.android.ddmlib.DebugBridgeServer.terminate(DebugBridgeServer.java:182)
+   at com.android.ide.eclipse.ddms.DdmsPlugin.stop(DdmsPlugin.java:251)
+   at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1032)
+   at java.security.AccessController.doPrivileged(libgcj.so.81)
+   at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1028)
+   ...16 more
+Root exception:
+java.lang.NullPointerException
+   at com.android.ddmlib.DebugBridgeServer.terminate(DebugBridgeServer.java:182)
+   at com.android.ide.eclipse.ddms.DdmsPlugin.stop(DdmsPlugin.java:251)
+   at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1032)
+   at java.security.AccessController.doPrivileged(libgcj.so.81)
+   at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1028)
+   at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:396)
+   at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:400)
+   at org.eclipse.core.runtime.internal.adaptor.BundleStopper.basicStopBundles(BundleStopper.java:86)
+   at org.eclipse.core.runtime.internal.adaptor.BundleStopper.stopBundles(BundleStopper.java:73)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook.frameworkStopping(EclipseAdaptorHook.java:156)
+   at org.eclipse.osgi.baseadaptor.BaseAdaptor.frameworkStopping(BaseAdaptor.java:288)
+   at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:538)
+   at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:449)
+   at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:423)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:193)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SESSION 2008-09-11 12:45:13.159 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-11 12:45:23.464
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-11 12:45:23.464
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-11 12:45:23.464
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-11 12:45:23.465
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2008-09-15 14:57:56.502 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-15 14:58:07.592
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-15 14:58:07.603
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-15 14:58:07.603
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-15 14:58:07.603
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 4 372 2008-09-15 14:58:54.694
+!MESSAGE Resource /aac_tags is not open.
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-15 14:59:15.183
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+!SESSION 2008-09-23 14:01:51.128 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-23 14:02:03.433
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-23 14:02:03.444
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-23 14:02:03.444
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-23 14:02:03.444
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 4 4 2008-09-23 14:06:08.217
+!MESSAGE Exception occurred while saving project preferences: /ece_applications/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+   at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:45)
+   at org.eclipse.core.internal.resources.Folder.create(Folder.java:88)
+   at org.eclipse.core.internal.resources.ProjectPreferences$2.run(ProjectPreferences.java:566)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:581)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:340)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.enableInternalBuilder(Configuration.java:1757)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:336)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedProject.createConfiguration(ManagedProject.java:242)
+   at org.eclipse.cdt.managedbuilder.ui.wizards.NewManagedProjectWizard.doRun(NewManagedProjectWizard.java:159)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$3.run(NewCProjectWizard.java:228)
+   at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:68)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:101)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:113)
+   at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$2.run(NewCProjectWizard.java:238)
+   at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+   at org.eclipse.ui.internal.UISynchronizer$1.run(UISynchronizer.java:36)
+   at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+   at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+   at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3157)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2859)
+   at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:158)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:326)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:265)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:161)
+   at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:680)
+   at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:355)
+   at org.eclipse.jface.dialogs.Dialog$3.widgetSelected(Dialog.java:660)
+   at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+   at org.eclipse.jface.window.Window.open(Window.java:796)
+   at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:116)
+   at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+   at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+   at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+   at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+   at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+   at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+   at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+   at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+   at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2008-09-23 14:06:08.728
+!MESSAGE A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+
+!ENTRY org.eclipse.core.resources 4 4 2008-09-23 14:06:08.734
+!MESSAGE Exception occurred while saving project preferences: /ece_applications/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+   at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:45)
+   at org.eclipse.core.internal.resources.Folder.create(Folder.java:88)
+   at org.eclipse.core.internal.resources.ProjectPreferences$2.run(ProjectPreferences.java:566)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:581)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:340)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.setInternalBuilderIgnoreErr(Configuration.java:1792)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:337)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedProject.createConfiguration(ManagedProject.java:242)
+   at org.eclipse.cdt.managedbuilder.ui.wizards.NewManagedProjectWizard.doRun(NewManagedProjectWizard.java:159)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$3.run(NewCProjectWizard.java:228)
+   at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:68)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:101)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:113)
+   at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$2.run(NewCProjectWizard.java:238)
+   at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+   at org.eclipse.ui.internal.UISynchronizer$1.run(UISynchronizer.java:36)
+   at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+   at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+   at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3157)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2859)
+   at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:158)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:326)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:265)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:161)
+   at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:680)
+   at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:355)
+   at org.eclipse.jface.dialogs.Dialog$3.widgetSelected(Dialog.java:660)
+   at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+   at org.eclipse.jface.window.Window.open(Window.java:796)
+   at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:116)
+   at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+   at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+   at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+   at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+   at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+   at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+   at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+   at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+   at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2008-09-23 14:06:08.738
+!MESSAGE A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+
+!ENTRY org.eclipse.core.resources 4 4 2008-09-23 14:06:08.748
+!MESSAGE Exception occurred while saving project preferences: /ece_applications/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+   at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:45)
+   at org.eclipse.core.internal.resources.Folder.create(Folder.java:88)
+   at org.eclipse.core.internal.resources.ProjectPreferences$2.run(ProjectPreferences.java:566)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:581)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:340)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.enableInternalBuilder(Configuration.java:1757)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:336)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedProject.createConfiguration(ManagedProject.java:242)
+   at org.eclipse.cdt.managedbuilder.ui.wizards.NewManagedProjectWizard.doRun(NewManagedProjectWizard.java:159)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$3.run(NewCProjectWizard.java:228)
+   at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:68)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:101)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:113)
+   at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$2.run(NewCProjectWizard.java:238)
+   at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+   at org.eclipse.ui.internal.UISynchronizer$1.run(UISynchronizer.java:36)
+   at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+   at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+   at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3157)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2859)
+   at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:158)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:326)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:265)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:161)
+   at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:680)
+   at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:355)
+   at org.eclipse.jface.dialogs.Dialog$3.widgetSelected(Dialog.java:660)
+   at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+   at org.eclipse.jface.window.Window.open(Window.java:796)
+   at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:116)
+   at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+   at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+   at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+   at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+   at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+   at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+   at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+   at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+   at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2008-09-23 14:06:08.754
+!MESSAGE A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+
+!ENTRY org.eclipse.core.resources 4 4 2008-09-23 14:06:08.760
+!MESSAGE Exception occurred while saving project preferences: /ece_applications/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+   at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:45)
+   at org.eclipse.core.internal.resources.Folder.create(Folder.java:88)
+   at org.eclipse.core.internal.resources.ProjectPreferences$2.run(ProjectPreferences.java:566)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:581)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:340)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.setInternalBuilderIgnoreErr(Configuration.java:1792)
+   at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:337)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedProject.createConfiguration(ManagedProject.java:242)
+   at org.eclipse.cdt.managedbuilder.ui.wizards.NewManagedProjectWizard.doRun(NewManagedProjectWizard.java:159)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$3.run(NewCProjectWizard.java:228)
+   at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:68)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:101)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:113)
+   at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$2.run(NewCProjectWizard.java:238)
+   at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+   at org.eclipse.ui.internal.UISynchronizer$1.run(UISynchronizer.java:36)
+   at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+   at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+   at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3157)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2859)
+   at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:158)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:326)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:265)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:161)
+   at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:680)
+   at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:355)
+   at org.eclipse.jface.dialogs.Dialog$3.widgetSelected(Dialog.java:660)
+   at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+   at org.eclipse.jface.window.Window.open(Window.java:796)
+   at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:116)
+   at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+   at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+   at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+   at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+   at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+   at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+   at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+   at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+   at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2008-09-23 14:06:08.763
+!MESSAGE A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+
+!ENTRY org.eclipse.core.resources 4 4 2008-09-23 14:06:09.042
+!MESSAGE Exception occurred while saving project preferences: /ece_applications/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+   at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:45)
+   at org.eclipse.core.internal.resources.Folder.create(Folder.java:88)
+   at org.eclipse.core.internal.resources.ProjectPreferences$2.run(ProjectPreferences.java:566)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:581)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:340)
+   at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:379)
+   at org.eclipse.cdt.managedbuilder.internal.envvar.StorableEnvironmentLoader.storeOutputStream(StorableEnvironmentLoader.java:210)
+   at org.eclipse.cdt.managedbuilder.internal.envvar.StorableEnvironmentLoader.storeEnvironment(StorableEnvironmentLoader.java:100)
+   at org.eclipse.cdt.managedbuilder.internal.envvar.UserDefinedEnvironmentSupplier.storeEnvironment(UserDefinedEnvironmentSupplier.java:203)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedProject.serialize(ManagedProject.java:203)
+   at org.eclipse.cdt.managedbuilder.internal.core.ManagedBuildInfo.serialize(ManagedBuildInfo.java:901)
+   at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.saveBuildInfo(ManagedBuildManager.java:1133)
+   at org.eclipse.cdt.managedbuilder.ui.wizards.NewManagedProjectWizard.doRun(NewManagedProjectWizard.java:208)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$3.run(NewCProjectWizard.java:228)
+   at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:68)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:101)
+   at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+   at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:113)
+   at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard$2.run(NewCProjectWizard.java:238)
+   at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+   at org.eclipse.ui.internal.UISynchronizer$1.run(UISynchronizer.java:36)
+   at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+   at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+   at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3157)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2859)
+   at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:158)
+   at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:326)
+   at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:851)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:265)
+   at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:161)
+   at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:680)
+   at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:355)
+   at org.eclipse.jface.dialogs.Dialog$3.widgetSelected(Dialog.java:660)
+   at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+   at org.eclipse.jface.window.Window.open(Window.java:796)
+   at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:116)
+   at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+   at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+   at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+   at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+   at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+   at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+   at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3180)
+   at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2856)
+   at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+   at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+   at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+   at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+   at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+   at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+   at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+   at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+   at java.lang.reflect.Method.invoke(libgcj.so.81)
+   at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+   at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+   at org.eclipse.core.launcher.Main.run(Main.java:977)
+   at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2008-09-23 14:06:09.046
+!MESSAGE A resource already exists on disk /home/julian/ece_applications/ece_applications/.settings.
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-23 14:14:09.284
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-23 14:20:46.874
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-23 15:53:11.867
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-23 15:53:20.042
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+!SESSION 2008-09-24 07:27:09.645 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:27:19.354
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:27:19.354
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:27:19.354
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:27:19.354
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 4 567 2008-09-24 07:27:31.838
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2008-09-24 07:27:31.838
+!MESSAGE The project description file (.project) for ece_applications is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.

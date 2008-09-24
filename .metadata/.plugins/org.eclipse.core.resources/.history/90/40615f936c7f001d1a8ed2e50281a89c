@@ -1,0 +1,18 @@
+#ifndef MEGALOTTERY_H_
+#define MEGALOTTERY_H_
+
+#include "Lottery.h"
+
+namespace lotto
+{
+
+class MegaLottery : public lotto::Lottery
+{
+public:
+	MegaLottery();
+	virtual ~MegaLottery();
+};
+
+}
+
+#endif /*MEGALOTTERY_H_*/

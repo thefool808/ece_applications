@@ -1,0 +1,16 @@
+#ifndef LOTTERYFACTORY_H_
+#define LOTTERYFACTORY_H_
+
+namespace lotto
+{
+
+class LotteryFactory
+{
+public:
+	LotteryFactory();
+	virtual ~LotteryFactory();
+};
+
+}
+
+#endif /*LOTTERYFACTORY_H_*/
