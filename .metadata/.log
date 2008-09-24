@@ -935,3 +935,29 @@ org.eclipse.core.internal.resources.ResourceException: A resource already exists
 !STACK 0
 java.io.IOException: read error
    at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+!SESSION 2008-09-24 07:38:38.847 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/julian/projects/ece_applications -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:38:45.227
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:38:45.227
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:38:45.228
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-24 07:38:45.228
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-09-24 07:38:47.128
+!MESSAGE A workspace crash was detected. The previous session did not exit normally.
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-24 07:42:39.757
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
