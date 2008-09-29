@@ -1,0 +1,44 @@
+/*
+ * Julian O'Brien
+ * ECE Applications
+ * Assignment #3
+ * Weather Baloon
+ */
+
+#include "stdio.h"
+#include "math.h"
+
+#define TWO											2.0
+#define THREE										3.0
+#define FOUR										4.0
+
+#define NEG_POINT_TWELVE 				(-0.12)
+#define TWELVE 									12.0
+#define THREE_EIGHTY						380.0
+#define FOURTY_ONE_HUNDRED 			4100.0
+#define TWO_TWENTY							220.0
+
+#define NEG_POINT_FOURTY_EIGHT	(-0.48)
+#define THIRYT_SIX							36.0
+#define SEVEN_SIXTY							760.0
+
+// get the user input
+void get_user_input(double *initial_value, double *increment_value, double *final_value){
+  printf("Enter the initial value for the table in hours ");
+  scanf("%lf", initial_value);
+  printf("Enter the increment bewteen lines in hours ");
+  scanf("%lf", increment_value);
+  printf("Enter the final value for the table in hours ");
+  scanf("%lf", final_value);
+}
+
+// calculate the altitude
+double calculate_altitude(double time_in_hours){
+  return (NEG_POINT_TWELVE * pow(time_in_hours, FOUR)) +
+    (TWELVE * pow(time_in_hours, THREE)) - (THREE_EIGHTY * pow(time_in_hours, TWO)) +
+    (FOURTY_ONE_HUNDRED * time_in_hours) + TWO_TWENTY;
+}
+
+int main(){
+  return 0;
+}

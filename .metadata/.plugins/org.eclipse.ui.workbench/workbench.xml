@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench version="2.0" progressCount="17">
+<workbench version="2.0" progressCount="15">
 <workbenchAdvisor/>
 <window maximized="true" x="370" y="218" width="1023" height="764">
 <fastViewData fastViewLocation="1024">
@@ -25,7 +25,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -34,14 +34,22 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder expanded="2" appearance="1">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor title="main.c" name="main.c" id="org.eclipse.cdt.ui.editor.CEditor" tooltip="third/src/main.c" partName="main.c" workbook="DefaultEditorWorkbook" activePart="true" focus="true" path="/home/julian/projects/ece_applications/third/src/main.c">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/third/src/main.c"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.cdt.ui.CView" partName="C/C++ Projects">
 <viewState verticalPosition="0" horizontalPosition="0">
+<expanded>
+<element path="/home/julian/projects/ece_applications/third"/>
+</expanded>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ClosedProjectFilter" isEnabled="false"/>
@@ -125,7 +133,7 @@
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 </views>
-<perspectives activePerspective="org.eclipse.cdt.ui.CPerspective" activePart="org.eclipse.ui.console.ConsoleView">
+<perspectives activePerspective="org.eclipse.cdt.ui.CPerspective" activePart="org.eclipse.cdt.ui.editor.CEditor">
 <perspective version="0.016" editorAreaVisible="1" fixed="0">
 <descriptor id="org.eclipse.jdt.ui.JavaPerspective" label="Java" class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory"/>
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
@@ -461,10 +469,8 @@
 <editor id="org.eclipse.cdt.ui.editor.CEditor" factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/faad2/plugins/xmms/src/aac_utils.c"/>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/first/src/Main.c"/>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ece_applications/src/main.c"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/third/src/main.c"/>
 </editors>
-<item historyLabel="mp4ff.c" index="2">
-<position/>
-</item>
 <item historyLabel="mp4atom.c" index="3">
 <position/>
 </item>
@@ -609,7 +615,10 @@
 <item historyLabel="Main.c" index="19">
 <position/>
 </item>
-<item active="true" historyLabel="main.c" index="20">
+<item historyLabel="main.c" index="20">
+<position/>
+</item>
+<item active="true" historyLabel="main.c" index="21">
 <position/>
 </item>
 </navigationHistory>
@@ -633,6 +642,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="third/src/main.c">
+<persistable path="/third/src/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="ece_applications/src/main.c">
 <persistable path="/ece_applications/src/main.c"/>
 </file>
@@ -674,9 +686,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="mp4ff.dsp" tooltip="faad2/common/mp4ff/mp4ff.dsp">
 <persistable path="/faad2/common/mp4ff/mp4ff.dsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp4ff.c" tooltip="faad2/common/mp4ff/mp4ff.c">
-<persistable path="/faad2/common/mp4ff/mp4ff.c"/>
 </file>
 </mruList>
 </workbench>

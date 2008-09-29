@@ -961,3 +961,95 @@ Command-line arguments:  -data /home/julian/projects/ece_applications -os linux 
 !STACK 0
 java.io.IOException: read error
    at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+!SESSION 2008-09-29 13:40:25.543 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.fullversion=GNU libgcj 4.2.3 (Ubuntu 4.2.3-2ubuntu6)
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-29 13:40:39.186
+!MESSAGE NLS missing message: initializer_error in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-29 13:40:39.186
+!MESSAGE NLS missing message: fileInitializer_fileNotFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-29 13:40:39.186
+!MESSAGE NLS missing message: fileInitializer_IOError in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2008-09-29 13:40:39.186
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.resources 4 372 2008-09-29 14:35:06.094
+!MESSAGE Resource /second is not open.
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 14:53:43.909
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 14:54:12.917
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 14:54:34.202
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:07:25.440
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:12:12.363
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:12:45.796
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:17:15.521
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:17:31.717
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:38:13.564
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:39:06.338
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:39:25.234
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-09-29 15:39:56.591
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+   at java.lang.reflect.Constructor.newInstance(libgcj.so.81)

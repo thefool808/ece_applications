@@ -1,0 +1,97 @@
+/*
+ * Julian O'Brien
+ * ECE Applications
+ * Assignment #3
+ * Weather Baloon
+ */
+
+#include "stdio.h"
+#include "math.h"
+
+#define TWO											2.0
+#define THREE										3.0
+#define FOUR										4.0
+
+#define NEG_POINT_TWELVE 				(-0.12)
+#define TWELVE 									12.0
+#define THREE_EIGHTY						380.0
+#define FOURTY_ONE_HUNDRED 			4100.0
+#define TWO_TWENTY							220.0
+
+#define NEG_POINT_FOURTY_EIGHT	(-0.48)
+#define THIRTY_SIX							36.0
+#define SEVEN_SIXTY							760.0
+
+#define MAX_INPUT_VALUE					48
+#define SIXTY										60
+
+// loops displaying the message and getting the input
+// until the input is valid
+void get_valid_user_input(const char *message, double *input){
+  while (1){
+    printf(message);
+    scanf("%lf", input);
+    // if the input greater than 0 and
+    // less than the max, then it is valid
+    if (*input >= 0 && *input <= MAX_INPUT_VALUE){
+      break;
+    }
+  }
+}
+
+// get the user input
+void get_user_input(double *initial_hour, double *increment_hour, double *final_hour){
+  get_valid_user_input("Enter the initial value for the table in hours ", initial_hour);
+  get_valid_user_input("Enter the increment bewteen lines in hours     ", increment_hour);
+  get_valid_user_input("Enter the final value for the table in hours   ", final_hour);
+}
+
+// calculate the altitude
+double calculate_altitude(double *time_in_hours){
+  return (NEG_POINT_TWELVE * pow(*time_in_hours, FOUR)) +
+    (TWELVE * pow(*time_in_hours, THREE)) - (THREE_EIGHTY * pow(*time_in_hours, TWO)) +
+    (FOURTY_ONE_HUNDRED * *time_in_hours) + TWO_TWENTY;
+}
+
+double convert_mph_to_mps(double *velocity_in_mph){
+  return *velocity_in_mph / (SIXTY * SIXTY);
+}
+
+
+// calculate the velocity
+double calculate_velocity(double *time_in_hours){
+  double velocity_in_mph;
+  velocity_in_mph = (NEG_POINT_FOURTY_EIGHT * pow(*time_in_hours, THREE)) +
+    (THIRTY_SIX * pow(*time_in_hours, TWO)) - (SEVEN_SIXTY * *time_in_hours) +
+    FOURTY_ONE_HUNDRED;
+  return convert_mph_to_mps(&velocity_in_mph);
+}
+
+// print a double
+//void print_d(const void *d, const int padding){
+//  printf("%*.2f", padding, *f);
+//}
+void print_d(const double *d){
+  printf("%*.2f", 10, *d);
+}
+
+int main(){
+  double initial_hour;
+  double increment_hour;
+  double final_hour;
+
+  get_user_input(&initial_hour, &increment_hour, &final_hour);
+
+  print_d(&initial_hour);
+  double altitude;
+  altitude = calculate_altitude(&initial_hour);
+  print_d(&altitude);
+  double velocity;
+  velocity = calculate_velocity(&initial_hour);
+  print_d(&velocity);
+
+  print_d(&increment_hour);
+  print_d(&final_hour);
+
+  return 0;
+}

@@ -6,9 +6,14 @@
       <toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.debug" id="cdt.managedbuild.toolchain.gnu.exe.debug.90438265" name="GCC Tool Chain">
         <tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1777596332" name="GCC C++ Compiler"/>
         <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.2080017585" name="GCC C Compiler"/>
-        <tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1317911905" name="GCC C Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1317911905" name="GCC C Linker">
+          <option superClass="gnu.c.link.option.libs" id="gnu.c.link.option.libs.394230530" valueType="libs">
+            <listOptionValue value="m" builtIn="false"/>
+          </option>
+        </tool>
         <tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.632409683" name="GCC C++ Linker"/>
         <tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.248425633" name="GCC Assembler"/>
+        <macros/>
       </toolChain>
     </configuration>
     <configuration id="cdt.managedbuild.config.gnu.exe.release.1142294645" name="Release" description="" parent="cdt.managedbuild.config.gnu.exe.release" artifactName="third" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
