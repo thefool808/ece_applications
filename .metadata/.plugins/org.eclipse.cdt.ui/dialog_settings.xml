@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="PDOMSearchPage">
-		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
+		<item key="caseSensitive" value="false"/>
 		<list key="previousPatterns">
 			<item value="SEEK_SET"/>
 		</list>
@@ -15,8 +15,8 @@
 		<item key="show_namespaces" value="false"/>
 		<item key="show_typedefs" value="false"/>
 		<item key="show_unions" value="false"/>
-		<item key="y" value="24"/>
 		<item key="show_classes" value="true"/>
+		<item key="y" value="24"/>
 		<item key="x" value="462"/>
 		<item key="height" value="717"/>
 	</section>

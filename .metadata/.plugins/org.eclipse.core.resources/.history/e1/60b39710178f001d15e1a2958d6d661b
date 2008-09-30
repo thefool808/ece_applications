@@ -1,0 +1,158 @@
+/*
+ * Julian O'Brien
+ * ECE Applications
+ * Assignment #3
+ * Weather Baloon
+ */
+
+#include "stdio.h"
+#include "math.h"
+
+//
+// These are the two polynomial equations used
+//
+
+// This equation returns the altitude in meters of the balloon
+// at a given hour.
+// -0.12t^4 + 12t^3 - 380t^2 + 4100t + 220
+#define calculate_altitude(...) \
+          ( ((-0.12) * pow(__VA_ARGS__, 4.0)) + \
+          (12.0 * pow(__VA_ARGS__, 3.0)) - \
+          (380.0 * pow(__VA_ARGS__, 2.0)) + \
+          (4100.0 * __VA_ARGS__) + 220.0 )
+
+// This equation returns the velocity in meters/hour of the balloon
+// at a given hour.
+// -0.48t^3 + 36t^2 - 760t + 4100
+#define calculate_velocity(...) \
+          ( ((-0.48) * pow(__VA_ARGS__, 3.0)) + \
+          (36.0 * pow(__VA_ARGS__, 2.0)) - \
+          (760.0 * __VA_ARGS__) + 4100.0 )
+
+#define MAX_INPUT_VALUE					48
+#define MINUTES_IN_HOUR					60
+#define SECONDS_IN_MINUTE				60
+
+#define CELL_PADDING						10
+#define PRINT_NEW_LINE					printf("\n");
+
+#define TRUE										1
+
+// loops displaying the message and getting the input
+// until the input is valid
+void get_valid_user_input(const char *message, double *input){
+  while (TRUE){
+    printf(message);
+    scanf("%lf", input);
+    // if the input greater than 0 and
+    // less than the max, then it is valid
+    if (*input >= 0 && *input <= MAX_INPUT_VALUE){
+      break;
+    }
+  }
+}
+
+// get the user input
+void get_user_input(double *initial_hour, double *increment_hour, double *final_hour){
+  get_valid_user_input("Enter the initial value for the table in hours ", initial_hour);
+  get_valid_user_input("Enter the increment bewteen lines in hours     ", increment_hour);
+  get_valid_user_input("Enter the final value for the table in hours   ", final_hour);
+}
+
+// calculate the altitude
+//double calculate_altitude(const double t){
+//  altitude(t);
+//}
+
+// convert meters/hr to meters/s
+double convert_mph_to_mps(const double velocity_in_mph){
+  return velocity_in_mph / (MINUTES_IN_HOUR * SECONDS_IN_MINUTE);
+}
+
+// calculate the velocity
+//double calculate_velocity(const double t){
+//  double velocity_in_mph;
+//  velocity_in_mph = VELOCITY_EQUATION;
+//  return convert_mph_to_mps(velocity_in_mph);
+//}
+
+// print a double
+void print_d(const double d){
+  printf("%*.2f", CELL_PADDING, d);
+}
+
+// print a string
+void print_s(const char *str){
+  printf("   %-*s", CELL_PADDING - 3, str);
+}
+
+int main(){
+  double initial_hour;
+  double increment_hour;
+  double final_hour;
+
+  get_user_input(&initial_hour, &increment_hour, &final_hour);
+
+  // space the table away from the input
+  PRINT_NEW_LINE; PRINT_NEW_LINE;
+
+  // print the table heading
+  printf("Weather Balloon Information"); PRINT_NEW_LINE
+
+  print_s("Time");
+  print_s("Height");
+  print_s("Velocity");
+  PRINT_NEW_LINE;
+
+  print_s("hrs");
+  print_s("meters");
+  print_s("meters/s");
+  PRINT_NEW_LINE;
+
+  double current_hour;
+  current_hour = initial_hour;
+
+  double highest_alt, highest_alt_time;
+  highest_alt = 0.0;
+  highest_alt_time = 0.0;
+
+  while(current_hour <= final_hour){
+    // print the current time in hours
+    print_d(current_hour);
+
+    // calculate and print the altitude
+    double altitude;
+    altitude = calculate_altitude(current_hour);
+    print_d(altitude);
+
+    // check for the highest altitude
+    if (altitude > highest_alt){
+      highest_alt = altitude;
+      highest_alt_time = current_hour;
+    }
+
+    // calculate and print the velocity
+    double velocity;
+    velocity = convert_mph_to_mps(
+      calculate_velocity(current_hour)
+    );
+    print_d(velocity);
+
+    // print a newline
+    PRINT_NEW_LINE;
+
+    // move forward in time
+    current_hour += increment_hour;
+  }
+
+  // space the maximum altitude display away
+  // from the table
+  PRINT_NEW_LINE; PRINT_NEW_LINE;
+
+  // print the maximum height
+  printf("Maximum ballon height was %.2f meters", highest_alt);
+  PRINT_NEW_LINE;
+  printf("That occurred at %.2f hours", highest_alt_time);
+
+  return 0;
+}
