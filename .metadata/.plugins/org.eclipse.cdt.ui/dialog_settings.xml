@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="outline_presenter_bounds">
+	</section>
 	<section name="PDOMSearchPage">
-		<item key="searchFlags" value="227191"/>
-		<item key="caseSensitive" value="false"/>
+		<item value="227191" key="searchFlags"/>
+		<item value="false" key="caseSensitive"/>
 		<list key="previousPatterns">
 			<item value="SEEK_SET"/>
 		</list>
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NewBaseClassSelectionDialogSettings">
-		<item key="show_enums" value="false"/>
-		<item key="width" value="364"/>
-		<item key="show_structs" value="true"/>
-		<item key="show_lowlevel" value="false"/>
-		<item key="show_namespaces" value="false"/>
-		<item key="show_typedefs" value="false"/>
-		<item key="show_unions" value="false"/>
-		<item key="show_classes" value="true"/>
-		<item key="y" value="24"/>
-		<item key="x" value="462"/>
-		<item key="height" value="717"/>
-	</section>
-	<section name="outline_presenter_bounds">
+		<item value="false" key="show_enums"/>
+		<item value="true" key="show_structs"/>
+		<item value="717" key="height"/>
+		<item value="false" key="show_lowlevel"/>
+		<item value="364" key="width"/>
+		<item value="false" key="show_typedefs"/>
+		<item value="true" key="show_classes"/>
+		<item value="false" key="show_namespaces"/>
+		<item value="false" key="show_unions"/>
+		<item value="24" key="y"/>
+		<item value="462" key="x"/>
 	</section>
 </section>

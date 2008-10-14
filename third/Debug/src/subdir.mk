@@ -6,11 +6,11 @@
 C_SRCS += \
 ../src/main.c 
 
-C_DEPS += \
-./src/main.d 
-
 OBJS += \
 ./src/main.o 
+
+C_DEPS += \
+./src/main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

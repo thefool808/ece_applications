@@ -1,0 +1,14 @@
+#include "stdio.h"
+
+int main(){
+  int i = 2;
+  int j = 20;
+
+  int c;
+
+  c = 2 * j % i;
+
+  printf("%d", c);
+
+  return 0;
+}

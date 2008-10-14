@@ -35,7 +35,7 @@ third: $(OBJS) $(USER_OBJS)
 
 # Other Targets
 clean:
-	-$(RM) $(C_DEPS)$(OBJS)$(EXECUTABLES) third
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) third
 	-@echo ' '
 
 .PHONY: all clean dependents

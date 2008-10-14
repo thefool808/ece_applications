@@ -1,0 +1,28 @@
+/*
+ * Julian O'Brien
+ * ECE Applications
+ * Assignment #3
+ * Calendar
+ */
+
+enum days {monday, tuesday wednesday, thursday, friday, saturday, sunday}
+enum months {
+  january,
+  february,
+  march,
+  april,
+  may,
+  june,
+  july,
+  august,
+  september,
+  october,
+  november,
+  december
+}
+
+#include "stdio.h"
+
+int main(){
+  return 0;
+}
