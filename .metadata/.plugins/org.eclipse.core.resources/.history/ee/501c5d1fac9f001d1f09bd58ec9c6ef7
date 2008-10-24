@@ -1,0 +1,95 @@
+#include "stdio.h"
+
+// include limits.h for INT_MAX
+#include "limits.h"
+
+#define TRUE 1
+#define FALSE 0
+
+#define LOCASE_ASCII_LOWER_LIMIT 65
+#define LOCASE_ASCII_UPPER_LIMIT 90
+#define UPCASE_ASCII_LOWER_LIMIT 97
+#define UPCASE_ASCII_UPPER_LIMIT 122
+
+#define NEW_LINE_CODE 10
+
+int is_letter(const char ch){
+  // cast the char to an int for comparison
+  int i_ch = (int) ch;
+
+  // check if the ch is within the limits of lower & upper case ascii letter codes
+  if ( ((LOCASE_ASCII_LOWER_LIMIT <= i_ch) && (i_ch <= LOCASE_ASCII_UPPER_LIMIT)) ||
+       ((UPCASE_ASCII_LOWER_LIMIT <= i_ch) && (i_ch <= UPCASE_ASCII_UPPER_LIMIT)) ){
+    return TRUE;
+  }
+  return FALSE;
+}
+
+int main(){
+  char ch;
+  unsigned int word_count, new_line_count, short_word_char_count, long_word_char_count,
+    total_char_in_words, current_char_count;
+
+  current_char_count = 0;
+  word_count = 0;
+  total_char_in_words = 0;
+  long_word_char_count = 0;
+  // set this to the largest int available
+  short_word_char_count = UINT_MAX;
+  new_line_count = 0;
+
+  // request input from the user
+  printf("ENTER A BLOCK OF TEXT TERMINATED BY END-OF-FILE (ctrl-D)\n");
+  printf("-------------------------------------------------------------------------\n");
+
+  // loop until EOF character received
+  do {
+    ch = getchar();
+
+    if (is_letter(ch)){
+
+      word_count += 1;
+      current_char_count = 0;
+
+      // get the whole word
+      while(is_letter(ch)){
+        current_char_count += 1;
+        ch = getchar();
+      }
+
+      // update the running total of letters in all words
+      total_char_in_words += current_char_count;
+
+      // update short_word_char_count as needed
+      if (current_char_count < short_word_char_count){
+        short_word_char_count = current_char_count;
+      }
+
+      // update long_word_char_count as needed
+      if (current_char_count > long_word_char_count){
+        long_word_char_count = current_char_count;
+      }
+    }
+
+    // check for NEWLINE
+    if (NEW_LINE_CODE == (int) ch){
+      new_line_count += 1;
+    }
+
+  } while(EOF != ch);
+
+  // calculate the avg numbers of char in a word
+  int avg_chars = (int) ((total_char_in_words / word_count) + 0.5);
+
+  // output the results
+  printf("-------------------------------------------------------------------------\n");
+  printf("STATISTICS\n");
+
+  printf("Word Count = %d\n", word_count);
+  printf("Letters in Shortest Word = %d\n", short_word_char_count);
+  printf("Letters in Longest Word = %d\n", long_word_char_count);
+  printf("Average Word size = %d\n", avg_chars);
+  printf("Number of NEWLINE characters = %d\n", new_line_count);
+
+  return 0;
+}

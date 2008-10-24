@@ -1,0 +1,51 @@
+Enter Date (mm dd yyyy): 2 1 2000
+
+Year 2000 is a leap year.
+
+Year 2000 has 366 days.
+
+Month 2 has 29 days.
+
+Day of year = 32
+
+Enter Date (mm dd yyyy): 12 31 1999
+
+Year 1999 is not a leap year.
+
+Year 1999 has 365 days.
+
+Month 12 has 31 days.
+
+Day of year = 334
+
+Enter Date (mm dd yyyy): 3 1 3200
+
+Year 3200 is not a leap year.
+
+Year 3200 has 365 days.
+
+Month 3 has 31 days.
+
+Day of year = 60
+
+Enter Date (mm dd yyyy): 2 28 1900
+
+Year 1900 is not a leap year.
+
+Year 1900 has 365 days.
+
+Month 2 has 28 days.
+
+Day of year = 59
+
+Enter Date (mm dd yyyy): 7 22 2004
+
+Year 2004 is a leap year.
+
+Year 2004 has 366 days.
+
+Month 7 has 31 days.
+
+Day of year = 204
+
+

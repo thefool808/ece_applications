@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
-<window height="730" width="1288" x="0" y="48">
+<window height="730" maximized="true" width="1288" x="4" y="48">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ve.internal.java.codegen.editorpart.XMLViewPart"/>
 </fastViewData>
@@ -36,21 +36,26 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/home/julian/ece_applications/test/src/main.c" title="main.c" tooltip="test/src/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/main.c"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/home/julian/ece_applications/fifth/src/main.c" title="main.c" tooltip="fifth/src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fifth/src/main.c"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/home/julian/ece_applications/fourth/src/main.c" title="main.c" tooltip="fourth/src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fourth/src/main.c"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.cdt.ui.CView" partName="C/C++ Projects">
 <viewState horizontalPosition="0" verticalPosition="0">
 <expanded>
-<element path="/home/julian/ece_applications/test"/>
-<element path="/home/julian/ece_applications/test/src"/>
+<element path="/home/julian/ece_applications/fifth"/>
+<element path="/home/julian/ece_applications/fifth/src"/>
 </expanded>
+<selection/>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
@@ -90,7 +95,7 @@
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState columnWidth0="262" columnWidth1="87" columnWidth2="162" columnWidth3="468" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<viewState columnWidth0="265" columnWidth1="90" columnWidth2="165" columnWidth3="471" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
 <columnOrder columnOrderIndex="0"/>
 <columnOrder columnOrderIndex="1"/>
 <columnOrder columnOrderIndex="2"/>
@@ -129,7 +134,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
@@ -304,7 +309,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24980299" ratioLeft="317" ratioRight="952" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.5195008" ratioLeft="333" ratioRight="308" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7284345" ratioLeft="456" ratioRight="170" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -444,10 +449,7 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/aac_tags/src/Main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/aac_tags/src/mp4ff/drms.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/aac_tags/src/mp4ff/mp4ff.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/aac_tags/src/mp4ff/drms.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/aac_tags/src/mp4ff/drmstables.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/faad2/plugins/xmms/src/aac_utils.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/faad2/plugins/xmms/src/libmp4.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/faad2/plugins/xmms/src/mp4_utils.c"/>
@@ -462,156 +464,153 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/second/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fourth/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fourth/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fifth/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fourth/src/main.c"/>
 </editors>
-<item historyLabel="Main.c" index="0">
-<position info="not_deleted" x="10" y="0"/>
-</item>
-<item historyLabel="mp4ff.c" index="2">
-<position/>
-</item>
-<item historyLabel="drms.c" index="1">
-<position/>
-</item>
-<item historyLabel="mp4ff.c" index="2">
-<position/>
-</item>
-<item historyLabel="drms.h" index="3">
-<position/>
-</item>
-<item historyLabel="mp4ff.c" index="2">
-<position/>
-</item>
-<item historyLabel="drms.c" index="1">
-<position/>
-</item>
-<item historyLabel="drmstables.h" index="4">
-<position/>
-</item>
-<item historyLabel="drms.c" index="1">
-<position/>
-</item>
-<item historyLabel="mp4ff.c" index="2">
+<item historyLabel="mp4ff.c" index="1">
 <position/>
 </item>
 <item historyLabel="Main.c" index="0">
 <position info="not_deleted" x="10" y="0"/>
 </item>
-<item historyLabel="aac_utils.c" index="5">
+<item historyLabel="aac_utils.c" index="2">
 <position/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position/>
 </item>
-<item historyLabel="mp4_utils.c" index="7">
+<item historyLabel="mp4_utils.c" index="4">
 <position/>
 </item>
-<item historyLabel="aac_utils.c" index="5">
+<item historyLabel="aac_utils.c" index="2">
 <position info="not_deleted" x="375" y="4"/>
 </item>
-<item historyLabel="aac_utils.c" index="5">
+<item historyLabel="aac_utils.c" index="2">
 <position info="not_deleted" x="1117" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="1687" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="1713" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="1739" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="2074" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="2188" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="2362" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="3940" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="4169" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="4211" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
 <position info="not_deleted" x="4301" y="4"/>
 </item>
-<item historyLabel="libmp4.c" index="6">
+<item historyLabel="libmp4.c" index="3">
+<position/>
+</item>
+<item historyLabel="Main.c" index="5">
+<position/>
+</item>
+<item historyLabel="mp4_utils.c" index="6">
+<position/>
+</item>
+<item historyLabel="aac_utils.c" index="7">
 <position/>
 </item>
 <item historyLabel="Main.c" index="8">
 <position/>
 </item>
-<item historyLabel="mp4_utils.c" index="9">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="aac_utils.c" index="10">
+<item historyLabel="main.c" index="10">
 <position/>
 </item>
-<item historyLabel="Main.c" index="11">
+<item historyLabel="main.c" index="11">
 <position/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="1323" y="0"/>
+</item>
+<item historyLabel="main.c" index="11">
+<position/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="3610" y="0"/>
 </item>
 <item historyLabel="main.c" index="12">
 <position/>
 </item>
-<item historyLabel="main.c" index="13">
+<item historyLabel="main.c" index="10">
 <position/>
 </item>
-<item historyLabel="main.c" index="14">
-<position/>
-</item>
-<item historyLabel="main.c" index="13">
-<position info="not_deleted" x="1323" y="0"/>
-</item>
-<item historyLabel="main.c" index="14">
-<position/>
-</item>
-<item historyLabel="main.c" index="13">
-<position info="not_deleted" x="3610" y="0"/>
-</item>
-<item historyLabel="main.c" index="15">
-<position/>
-</item>
-<item historyLabel="main.c" index="13">
-<position/>
-</item>
-<item historyLabel="main.c" index="15">
+<item historyLabel="main.c" index="12">
 <position info="not_deleted" x="1495" y="26"/>
 </item>
-<item historyLabel="main.c" index="13">
+<item historyLabel="main.c" index="10">
 <position info="not_deleted" x="2241" y="0"/>
 </item>
-<item historyLabel="main.c" index="15">
+<item historyLabel="main.c" index="12">
 <position info="not_deleted" x="1344" y="179"/>
 </item>
-<item historyLabel="main.c" index="13">
+<item historyLabel="main.c" index="10">
 <position info="not_deleted" x="1779" y="0"/>
 </item>
-<item historyLabel="main.c" index="15">
+<item historyLabel="main.c" index="12">
 <position info="not_deleted" x="1344" y="179"/>
+</item>
+<item historyLabel="main.c" index="10">
+<position/>
 </item>
 <item historyLabel="main.c" index="13">
 <position/>
 </item>
+<item historyLabel="main.c" index="14">
+<position/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="main.c" index="14">
+<position/>
+</item>
+<item historyLabel="main.c" index="15">
+<position/>
+</item>
+<item historyLabel="main.c" index="16">
+<position/>
+</item>
 <item historyLabel="main.c" index="16">
 <position/>
 </item>
 <item historyLabel="main.c" index="17">
 <position/>
 </item>
-<item historyLabel="main.c" index="16">
-<position/>
+<item historyLabel="main.c" index="17">
+<position info="not_deleted" x="836" y="0"/>
 </item>
 <item historyLabel="main.c" index="17">
+<position info="not_deleted" x="117" y="2835"/>
+</item>
+<item historyLabel="main.c" index="18">
 <position/>
 </item>
-<item active="true" historyLabel="main.c" index="18">
-<position/>
+<item active="true" historyLabel="main.c" index="17">
+<position info="not_deleted" x="117" y="2835"/>
 </item>
 </navigationHistory>
 <stickyState>
@@ -634,14 +633,17 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="fourth/src/main.c">
+<persistable path="/fourth/src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="fifth/src/main.c">
+<persistable path="/fifth/src/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="test/src/main.c">
 <persistable path="/test/src/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="second/src/main.c">
 <persistable path="/second/src/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="fourth/src/main.c">
-<persistable path="/fourth/src/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="third/src/main.c">
 <persistable path="/third/src/main.c"/>
@@ -672,12 +674,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp4ff.c" tooltip="aac_tags/src/mp4ff/mp4ff.c">
 <persistable path="/aac_tags/src/mp4ff/mp4ff.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp4ffint.h" tooltip="aac_tags/src/mp4ff/mp4ffint.h">
-<persistable path="/aac_tags/src/mp4ff/mp4ffint.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp4ff_int_types.h" tooltip="aac_tags/src/mp4ff/mp4ff_int_types.h">
-<persistable path="/aac_tags/src/mp4ff/mp4ff_int_types.h"/>
 </file>
 </mruList>
 </workbench>

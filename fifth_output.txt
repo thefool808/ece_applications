@@ -1,0 +1,16 @@
+ENTER A BLOCK OF TEXT TERMINATED BY END-OF-FILE (ctrl-D)
+-------------------------------------------------------------------------
+This C programming stuff really
+is a lot of fun.  I can't wait until
+my instructor gives us another program
+to write.  I bet I'll scoree 100 on the
+first exam too.
+-------------------------------------------------------------------------
+                            STATISTICS
+
+                       Word Count = 33
+         Letters in Shortest Word = 1
+          Letters in Longest Word = 11
+                Average Word size = 3
+     Number of NEWLINE characters = 5
+
