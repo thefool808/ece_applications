@@ -1,3 +1,0 @@
-src/Lottery.d src/Lottery.o: ../src/Lottery.cpp ../src/Lottery.h
-
-../src/Lottery.h:
