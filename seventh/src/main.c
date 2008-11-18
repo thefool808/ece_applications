@@ -1,3 +1,18 @@
+/*
+ * Julian O'Brien
+ * ECE Applications
+ * Assignment #7
+ * 2-Dimensional Array
+ *
+ * Note:
+ *  On my Linux machine, I could not send EOF to scanf without it segfaulting.
+ *  Therefore, I chose to use getline and read in a string.
+ *  Then I had to parse that string and convert it into integers,
+ *  which turned out to be a a bit of a PITA.
+ *  Anyways, being more flexible with input and working with strings in C is
+ *  great practice for me, so I'm happy.
+ */
+
 #include "stdio.h"
 #include "math.h"
 #include "malloc.h"

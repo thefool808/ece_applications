@@ -1,0 +1,21 @@
+Enter a binary number:  1
+sum =   1 decimal  1 hex and 00000001 binary
+Enter a binary number:  10
+sum =   3 decimal  3 hex and 00000011 binary
+Enter a binary number:  100
+sum =   7 decimal  7 hex and 00000111 binary
+Enter a binary number:  1000
+sum =  15 decimal  f hex and 00001111 binary
+Enter a binary number:  10000000
+sum = 143 decimal 8f hex and 10001111 binary
+Enter a binary number:  1110000
+sum = 255 decimal ff hex and 11111111 binary
+Enter a binary number:  1
+sum =   0 decimal  0 hex and 00000000 binary
+Enter a binary number:  10000000
+sum = 128 decimal 80 hex and 10000000 binary
+Enter a binary number:  10001000
+sum =   8 decimal  8 hex and 00001000 binary
+Enter a binary number:  q
+Goodbye.
+
